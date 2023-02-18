@@ -4,9 +4,9 @@
 module.exports = {
   siteMetadata: {
     title: `Garpagan Portfolio`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.garpagan.github.io/`
   },
-  plugins: ["gatsby-plugin-google-gtag", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
